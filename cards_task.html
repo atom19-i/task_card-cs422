@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.column1{
+ margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+  column-gap: 4px;
+  width: 40%;
+}
+
+.column2{
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  column-gap: 40px;
+  width: 40%;
+}
+
+.row{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  row-gap: 40px;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Cards</h2>
+
+<div class="row">
+    <div class="column1">
+    <div class="card">
+    <img src="newyork.jpg" alt="newyork" style="width:20%">
+    <h1>New York</h1>
+      <p class="card-text">
+          New York City comprises 5 boroughs sitting where the Hudson River meets
+          the Atlantic Ocean.  
+      </p>
+  </div>
+</div>
+ 
+<div class="column2">
+  <div class="card">
+    <img src="sanfrancisco.jpg" alt="sf" style="width:20%">
+    <h1>San Francisco</h1>
+      <p class="card-text">
+        San Francisco, officially the City and County of San Francisco, is a cultural, commercial, and financial 
+        center in Northern California. 
+      </p>
+  </div>
+</div>
+</div>
+ <div class="row"> 
+    <div class="column1">
+    <div class="card">
+    <img src="texas.jpg" alt="texas" style="width:20%">
+    <h1>Texas</h1>
+      <p class="card-text">
+        Texas is a state in the South Central region of the United States. It is the second largest U.S. state by both 
+        area and population.
+      </p>
+  </div>
+  </div>
+  <div class="column2">
+  <div class="card">]
+    <img src="washingtonDc.jpg" alt="washingtonDc" style="width:20%">
+    <h1>Washington</h1>
+      <p class="card-text">
+        Washington, officially the State of Washington, is a state in the Pacific Northwest region of the Western 
+        United States.
+      </p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
